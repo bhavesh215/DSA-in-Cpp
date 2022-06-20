@@ -4,9 +4,8 @@ int Sum(int n){
     if(n==1){
         return 1;
     }
-    else{
-        return Sum(n-1)+n;
-    }
+    return Sum(n-1)+n;
+    
 }
 int main(){
     int n;
